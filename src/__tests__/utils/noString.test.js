@@ -2,11 +2,13 @@ import {multiply} from '../../index';
 import {division} from '../../index';
 
 test('Проверка строка или нет при делении', () => {
-    expect(division(4)).toString()
+    let res = division(4)
+    expect(typeof res).toBe("number")
     }
 );
 
 test('Проверка строка или нет при умножении', () => {
-    expect(multiply(4)).toString()
+    let res = multiply(4)
+    expect(typeof res).toBe("number")
     }
 );
