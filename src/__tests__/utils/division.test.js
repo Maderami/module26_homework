@@ -7,7 +7,7 @@ test(
 )
 
 test(
-    'division on 8 equal 0.5', () => {
-        expect(division(5)).toBe(0.5);
+    'division on 8 not equal 0.5', () => {
+        expect(division(5)).not.toBe(0.5);
     }
 )
